@@ -8,11 +8,11 @@ import Modelo.Factory.Evento;
 public class eventoControlador extends Controlador {
     private Evento evento;
 
-    @Override
+    /*@Override
     public void run(CreadorEventoAbstracto creador) {
         evento = creador.crearEvento();
 
-    }
+    }*/
 
     @Override
     public void run() {
